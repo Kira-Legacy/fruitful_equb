@@ -14,21 +14,28 @@ var takerDisplay = document.getElementById('taker-id');
 
 switch(number){
     case 1: 
-        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 1. Eyosias Mengesha";
+        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 1. Eyosias Mengesha <br><br> Congrats! 🥳🎉";
         break;
     case 2:
-        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 2. Kibru Abebe";
+        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 2. Kibru Abebe <br><br> Congrats! 🥳🎉";
         break;
 
     case 3: 
-    takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 3. Kirubel Eshetu";
+    takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 3. Kirubel Eshetu <br><br> Congrats! 🥳🎉";
+        
+        break;
 
     case 4:
-        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 4. Natnael Abera";
+        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 4. Natnael Abera <br><br> Congrats! 🥳🎉";
         
         break;
     case 5:
-        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 5. Samuel Teshome";
+        takerDisplay.innerHTML = "The Person taking the next Equb is: <br><br> 5. Samuel Teshome <br><br> Congrats! 🥳🎉";
 
 };
+
+const spanElement = document.getElementById("spanid");
+const currentYear = new Date().getFullYear();
+
+spanElement.innerHTML = currentYear;
 
