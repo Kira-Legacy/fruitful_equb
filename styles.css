@@ -12,6 +12,11 @@ header {
     font-size: 1.8rem;
 }
 
+header .waving_hand {
+    width: 45px;
+     height: 45px;
+}
+
 .content {
     display: none;
     text-align: center;
@@ -21,10 +26,10 @@ header {
 
 main {
     margin: 40px auto;
-    max-width: 950px;
+    max-width: 750px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 1.0);
     background-color: white;
-    padding: 110px 0;
+    padding: 145px 0;
 }
 
 .button-container {
